@@ -33,7 +33,7 @@ class FilterObject extends Component {
         let filteredGames = this.state.games.filter((e)=>e[userInput])
         this.setState({filteredGames: filteredGames})
     }
-    render () {
+    render() {
         return (
             <div className='puzzleBox filterObjectPB'>
                 <h4>Filter Object</h4>
